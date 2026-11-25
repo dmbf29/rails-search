@@ -1,0 +1,3 @@
+<%= turbo_stream.update 'movies' do %>
+  <%= render 'movies/list', movies: @movies %>
+<% end %>
